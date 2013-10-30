@@ -1,4 +1,4 @@
-# Reflection API for UMD modules [![Build Status](https://travis-ci.org/heya/umd.png?branch=master)](https://travis-ci.org/heya/umd)
+# heya/umd [![Build Status](https://travis-ci.org/heya/umd.png?branch=master)](https://travis-ci.org/heya/umd)
 
 Reflection API for UMD modules.
 
@@ -48,12 +48,12 @@ Module `heya-umd` provides the following properties and functions:
 
 ### usingAMD
 
-A simple property set to an implementation dependent truthy value when loaded in AMD environment. Iit could, but is not guaranteed to, be a string identifying the 
+A simple property set to an implementation dependent truthy value when loaded in AMD environment. It could, but is not guaranteed to, be a string identifying the 
 specific AMD loader in use such as `"requirejs"`.
 
 ### usingCommonJS
 
-A simple property set to an implementation dependent truthy value when loaded in CommonJS environment. Iit could, but is not guaranteed to, be a string identifying 
+A simple property set to an implementation dependent truthy value when loaded in CommonJS environment. It could, but is not guaranteed to, be a string identifying 
 the specific CommonJS loader in use such as `"node"`.
 
 ### isRequire()
