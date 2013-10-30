@@ -4,7 +4,7 @@ Reflection API for UMD modules.
 
 ## What is UMD?
 
-UMD is Universal Module Definition: a unification pattern that allows Javascript modules to work in both the [AMD](http://en.wikipedia.org/wiki/Asynchronous_module_definition) (e.g. [requirejs](http://requirejs.org/)) and the [CommonJS](http://en.wikipedia.org/wiki/CommonJS) (e.g. [Node.js](http://nodejs.org/)) environments. Various implementations of this pattern can be found [here](https://github.com/umdjs/umd) [here](http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html) and [here](http://know.cujojs.com/tutorials/modules/authoring-umd-modules).
+UMD is Universal Module Definition: a unification pattern that allows Javascript modules to work in both the [AMD](http://en.wikipedia.org/wiki/Asynchronous_module_definition) (e.g. [requirejs](http://requirejs.org/)) and the [CommonJS](http://en.wikipedia.org/wiki/CommonJS) (e.g. [Node.js](http://nodejs.org/)) environments. Various implementations of this pattern can be found [here](https://github.com/umdjs/umd), [here](http://dontkry.com/posts/code/browserify-and-the-universal-module-definition.html) and [here](http://know.cujojs.com/tutorials/modules/authoring-umd-modules).
 
 Heya suggests -- and uses internally in its libraries -- a relatively simple implementation of UMD intended to support the basic level of AMD as well as Node.js:
 
@@ -20,7 +20,8 @@ Heya suggests -- and uses internally in its libraries -- a relatively simple imp
 )
 ```
 
-It takes place of the simple `define` in AMD and, when compacted into a single line of code, can be easily replaced with an optimizer tool when preparing a build for browser-based AMD loader.
+It takes place of the simple `define` in AMD and, when compacted into a single line of code, can be easily replaced by an optimizer tool when preparing 
+a build for browser-based AMD loader.
 
 ## What is this library?
 
