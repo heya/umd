@@ -80,8 +80,8 @@ loader.
 
     console.log( "Loader: " + loader );
 
-    console.log( "require() is " + ( umd.isRequire( require ) ? "recognized" : "not recognized" );
-    console.log( "module is " + ( umd.isModule( module ) ? "recognized" : "not recognized" );
+    console.log( "require() is " + ( umd.isRequire( require ) ? "recognized" : "not recognized" ) );
+    console.log( "module is " + ( umd.isModule( module ) ? "recognized" : "not recognized" ) );
   }
 )
 ```
