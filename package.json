@@ -1,0 +1,22 @@
+{
+  "name": "heya-umd",
+  "version": "0.1.0",
+  "description": "Reflection API for UMD modules",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node tests/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/heya/umd.git"
+  },
+  "keywords": [
+    "AMD",
+    "CommonJS"
+  ],
+  "author": "Max Motovilov <max@motovilov.com>",
+  "license": "BSD"
+}
+
