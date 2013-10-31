@@ -44,7 +44,7 @@ volo install heya/umd heya-umd
 
 ## Documentation
 
-Module `heya-umd` provides the following properties and functions:
+Module `heya/umd/umd` provides the following properties and functions:
 
 ### usingAMD
 
@@ -70,7 +70,7 @@ loader.
 
 ```
 /* UMD.define */ (typeof define=="function"&&define||function(d,f,m){m={module:module,require:require};module.exports=f.apply(null,d.map(function(n){return m[n]||require(n)}))})
-( [ 'module', 'require', 'heya/umd' ], 
+( [ 'module', 'require', 'heya/umd/umd' ], 
   function( module, require, umd ) {
     var loader = typeof umd.usingAMD == "string" && umd.usingAMD ||
                  umd.usingAMD && "AMD" ||
