@@ -1,4 +1,4 @@
-# heya/umd [![Build Status](https://travis-ci.org/heya/umd.png?branch=master)](https://travis-ci.org/heya/umd)
+# heya/umd [![Build Status](https://travis-ci.org/heya/umd.png?branch=master)](https://travis-ci.org/heya/umd) [![Greenkeeper badge](https://badges.greenkeeper.io/heya/umd.svg)](https://greenkeeper.io/)
 
 Reflection API for UMD modules.
 
